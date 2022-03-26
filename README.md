@@ -3,19 +3,15 @@ Development resource archive
 
 # Git 명령어 모음
 
-## 계정, 이메일 확인
+## 계정, 이메일 확인, 변경
 
 ```
 git config user.name
 git config user.email
 ```
 
-## 계정, 이메일 변경
-
-```
-git config --global user.name
-git config --global user.email
-```
+- 글로벌: `--global`, ex) `git config --global user.name`
+- 로컬: `--local`
 
 # Mac Command Line으로 파일, 폴더 삭제
 
